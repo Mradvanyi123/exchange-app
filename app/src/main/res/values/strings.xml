@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">exchange-app</string>
+    <string name="app_name">Exchange-app</string>
+    <string name="database">CurrencyDatabase</string>
 </resources>

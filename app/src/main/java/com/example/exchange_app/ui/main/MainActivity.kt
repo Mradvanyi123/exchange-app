@@ -1,7 +1,8 @@
-package com.example.exchange_app
+package com.example.exchange_app.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.exchange_app.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

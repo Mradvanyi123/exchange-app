@@ -1,0 +1,80 @@
+commit f27403909967625df2768dc336c3b934f176d9b1
+Author: Mradvanyi123 <mradvanyi0122@gmail.com>
+Date:   Sun Apr 10 22:04:56 2022 +0200
+
+    git ignore added
+
+commit 3e6d420e370f3974c42991fee4e150f6c350c68d
+Merge: 68e3b1d e77b301
+Author: Radványi Mátyás <71331714+Mradvanyi123@users.noreply.github.com>
+Date:   Sun Apr 10 20:59:40 2022 +0100
+
+    Merge pull request #3 from Mradvanyi123/release/0.1.0
+    
+    Release/0.1.0
+
+commit e77b301dd84928e40c46acd20ae8aeb5198516a9
+Merge: 9d890f3 306c24a
+Author: Radványi Mátyás <71331714+Mradvanyi123@users.noreply.github.com>
+Date:   Sun Apr 10 20:42:00 2022 +0100
+
+    Merge pull request #2 from Mradvanyi123/feature/feature_extend_skeleton
+    
+    Feature/feature extend skeleton
+
+commit 306c24aafce93f84cb942214bccf734bddc18538
+Author: Mradvanyi123 <mradvanyi0122@gmail.com>
+Date:   Sun Apr 10 21:34:13 2022 +0200
+
+    build gradle extended,
+
+commit eb36f4e2c4929f341cdc248686bf694b377e44d1
+Author: Mradvanyi123 <mradvanyi0122@gmail.com>
+Date:   Sun Apr 10 21:33:30 2022 +0200
+
+    details package extended
+
+commit 83907b864e58ec373638a7cec04d1ba8e8714c20
+Author: Mradvanyi123 <mradvanyi0122@gmail.com>
+Date:   Sun Apr 10 21:31:24 2022 +0200
+
+    main package extended
+
+commit b692c6cb4f7390cb7d5c0aaf6e176da5c243cae4
+Author: Mradvanyi123 <mradvanyi0122@gmail.com>
+Date:   Sun Apr 10 21:19:31 2022 +0200
+
+    NetworkModule.kt, PersistenceModule.kt, RepositoryModule.kt , MainRepository.kt extended
+
+commit eddf7e540acb3d848c718e0038836d604dc43fe4
+Author: Mradvanyi123 <mradvanyi0122@gmail.com>
+Date:   Sun Apr 10 21:17:42 2022 +0200
+
+    currency model and persistence created
+
+commit 9d890f35372597a02f991c63cc1af3f7fc8e51e1
+Author: Mradvanyi123 <mradvanyi0122@gmail.com>
+Date:   Sun Apr 10 18:02:00 2022 +0200
+
+    skeleton setup
+
+commit 68e3b1dd231e7040fdf27069af5e91fff7190637
+Merge: e9900e2 b2414b7
+Author: Radványi Mátyás <71331714+Mradvanyi123@users.noreply.github.com>
+Date:   Sun Apr 10 16:39:35 2022 +0100
+
+    Merge pull request #1 from Mradvanyi123/feature/action
+    
+    Create android.yml
+
+commit b2414b7505976cff481c307e517c339244d23ee6
+Author: Radványi Mátyás <71331714+Mradvanyi123@users.noreply.github.com>
+Date:   Sun Apr 10 17:35:42 2022 +0200
+
+    Create android.yml
+
+commit e9900e2da100296a96b2b30d583eb1072d862782
+Author: Mradvanyi123 <mradvanyi0122@gmail.com>
+Date:   Sun Apr 10 17:34:15 2022 +0200
+
+    Initial commit

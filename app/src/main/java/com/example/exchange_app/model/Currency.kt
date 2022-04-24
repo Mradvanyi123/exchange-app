@@ -16,7 +16,7 @@ data class Currency(
     companion object {
         fun mock() = Currency(
             id = "0",
-            name = "What do you call Dragon with no silver?",
+            name = "eur",
             date = "2022.01.01",
             exchangeRates = "JsonReader()"
         )

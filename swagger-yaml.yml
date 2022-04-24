@@ -1,0 +1,450 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: ""
+host: "cdn.jsdelivr.net"
+tags: 
+- name: "Exchange rates"
+schemes:
+- "https"
+paths:
+  /gh/fawazahmed0/currency-api@1/latest/currencies/eur.json:
+    get:
+      tags:
+      - "euro"
+      summary: "Get euro exchange rates"
+      produces:
+      - "application/json"
+      responses:
+        "200":
+          description: "OK"
+          schema:
+            $ref: "#/definitions/EuroExchangeRates"
+            
+definitions: 
+  EuroExchangeRates: 
+    type: object
+    properties: 
+      date: 
+        type: string
+        format: date
+      eur: 
+        type: object
+        properties: 
+          1inch: 
+            type: number
+          ada: 
+            type: number
+          aed: 
+            type: number
+          afn: 
+            type: number
+          algo: 
+            type: number
+          all: 
+            type: number
+          amd: 
+            type: number
+          ang: 
+            type: number
+          aoa: 
+            type: number
+          ars: 
+            type: number
+          atom: 
+            type: number
+          aud: 
+            type: number
+          avax: 
+            type: number
+          awg: 
+            type: number
+          azn: 
+            type: number
+          bam: 
+            type: number
+          bbd: 
+            type: number
+          bch: 
+            type: number
+          bdt: 
+            type: number
+          bgn: 
+            type: number
+          bhd: 
+            type: number
+          bif: 
+            type: number
+          bmd: 
+            type: number
+          bnb: 
+            type: number
+          bnd: 
+            type: number
+          bob: 
+            type: number
+          brl: 
+            type: number
+          bsd: 
+            type: number
+          btc: 
+            type: number
+          btn: 
+            type: number
+          busd: 
+            type: number
+          bwp: 
+            type: number
+          byn: 
+            type: number
+          byr: 
+            type: number
+          bzd: 
+            type: number
+          cad: 
+            type: number
+          cdf: 
+            type: number
+          chf: 
+            type: number
+          chz: 
+            type: number
+          clf: 
+            type: number
+          clp: 
+            type: number
+          cny: 
+            type: number
+          cop: 
+            type: number
+          crc: 
+            type: number
+          cro: 
+            type: number
+          cuc: 
+            type: number
+          cup: 
+            type: number
+          cve: 
+            type: number
+          czk: 
+            type: number
+          dai: 
+            type: number
+          djf: 
+            type: number
+          dkk: 
+            type: number
+          doge: 
+            type: number
+          dop: 
+            type: number
+          dot: 
+            type: number
+          dzd: 
+            type: number
+          egld: 
+            type: number
+          egp: 
+            type: number
+          enj: 
+            type: number
+          ern: 
+            type: number
+          etb: 
+            type: number
+          etc: 
+            type: number
+          eth: 
+            type: number
+          eur: 
+            type: integer
+            format: int32
+          fil: 
+            type: number
+          fjd: 
+            type: number
+          fkp: 
+            type: number
+          ftt: 
+            type: number
+          gbp: 
+            type: number
+          gel: 
+            type: number
+          ggp: 
+            type: number
+          ghs: 
+            type: number
+          gip: 
+            type: number
+          gmd: 
+            type: number
+          gnf: 
+            type: number
+          grt: 
+            type: number
+          gtq: 
+            type: number
+          gyd: 
+            type: number
+          hkd: 
+            type: number
+          hnl: 
+            type: number
+          hrk: 
+            type: number
+          htg: 
+            type: number
+          huf: 
+            type: number
+          icp: 
+            type: number
+          idr: 
+            type: number
+          ils: 
+            type: number
+          imp: 
+            type: number
+          inj: 
+            type: number
+          inr: 
+            type: number
+          iqd: 
+            type: number
+          irr: 
+            type: number
+          isk: 
+            type: number
+          jep: 
+            type: number
+          jmd: 
+            type: number
+          jod: 
+            type: number
+          jpy: 
+            type: number
+          kes: 
+            type: number
+          kgs: 
+            type: number
+          khr: 
+            type: number
+          kmf: 
+            type: number
+          kpw: 
+            type: number
+          krw: 
+            type: number
+          ksm: 
+            type: number
+          kwd: 
+            type: number
+          kyd: 
+            type: number
+          kzt: 
+            type: number
+          lak: 
+            type: number
+          lbp: 
+            type: number
+          link: 
+            type: number
+          lkr: 
+            type: number
+          lrd: 
+            type: number
+          lsl: 
+            type: number
+          ltc: 
+            type: number
+          ltl: 
+            type: number
+          luna: 
+            type: number
+          lvl: 
+            type: number
+          lyd: 
+            type: number
+          mad: 
+            type: number
+          matic: 
+            type: number
+          mdl: 
+            type: number
+          mga: 
+            type: number
+          mkd: 
+            type: number
+          mmk: 
+            type: number
+          mnt: 
+            type: number
+          mop: 
+            type: number
+          mro: 
+            type: number
+          mur: 
+            type: number
+          mvr: 
+            type: number
+          mwk: 
+            type: number
+          mxn: 
+            type: number
+          myr: 
+            type: number
+          mzn: 
+            type: number
+          nad: 
+            type: number
+          ngn: 
+            type: number
+          nio: 
+            type: number
+          nok: 
+            type: number
+          npr: 
+            type: number
+          nzd: 
+            type: number
+          omr: 
+            type: number
+          one: 
+            type: number
+          pab: 
+            type: number
+          pen: 
+            type: number
+          pgk: 
+            type: number
+          php: 
+            type: number
+          pkr: 
+            type: number
+          pln: 
+            type: number
+          pyg: 
+            type: number
+          qar: 
+            type: number
+          ron: 
+            type: number
+          rsd: 
+            type: number
+          rub: 
+            type: number
+          rwf: 
+            type: number
+          sar: 
+            type: number
+          sbd: 
+            type: number
+          scr: 
+            type: number
+          sdg: 
+            type: number
+          sek: 
+            type: number
+          sgd: 
+            type: number
+          shib: 
+            type: number
+          shp: 
+            type: number
+          sll: 
+            type: number
+          sol: 
+            type: number
+          sos: 
+            type: number
+          srd: 
+            type: number
+          std: 
+            type: number
+          svc: 
+            type: number
+          syp: 
+            type: number
+          szl: 
+            type: number
+          thb: 
+            type: number
+          theta: 
+            type: number
+          tjs: 
+            type: number
+          tmt: 
+            type: number
+          tnd: 
+            type: number
+          top: 
+            type: number
+          trx: 
+            type: number
+          try: 
+            type: number
+          ttd: 
+            type: number
+          twd: 
+            type: number
+          tzs: 
+            type: number
+          uah: 
+            type: number
+          ugx: 
+            type: number
+          uni: 
+            type: number
+          usd: 
+            type: number
+          usdc: 
+            type: number
+          usdt: 
+            type: number
+          uyu: 
+            type: number
+          uzs: 
+            type: number
+          vef: 
+            type: number
+          vet: 
+            type: number
+          vnd: 
+            type: number
+          vuv: 
+            type: number
+          wbtc: 
+            type: number
+          wst: 
+            type: number
+          xaf: 
+            type: number
+          xag: 
+            type: number
+          xau: 
+            type: number
+          xcd: 
+            type: number
+          xdr: 
+            type: number
+          xlm: 
+            type: number
+          xmr: 
+            type: number
+          xof: 
+            type: number
+          xpf: 
+            type: number
+          xrp: 
+            type: number
+          yer: 
+            type: number
+          zar: 
+            type: number
+          zmk: 
+            type: number
+          zmw: 
+            type: number
+          zwl: 
+            type: number

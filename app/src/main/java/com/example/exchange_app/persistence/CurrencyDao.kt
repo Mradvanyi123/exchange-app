@@ -12,7 +12,7 @@ interface CurrencyDao {
     suspend fun insertCurrencyList(currency: List<Currency>)
 
     @Query("SELECT * FROM Currency WHERE id = :id_")
-    suspend fun getCurrency(id_: Long): Currency?
+    suspend fun getCurrency(id_: String): Currency?
 
     @Query("SELECT * FROM Currency")
     suspend fun getCurrencyList(): List<Currency>

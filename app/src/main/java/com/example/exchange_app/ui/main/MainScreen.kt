@@ -38,23 +38,11 @@ fun MainScreen() {
                 HomeScreen(
                     viewModel = hiltViewModel(),
                     selectCurrency = {
-                        navController.navigate("${NavScreen.PosterDetails.route}/$it")
+                        navController.navigate("${NavScreen.Home.route}/$it")
                     }
                 )
             }
-            composable(
-                route = NavScreen.PosterDetails.routeWithArgument,
-                arguments = listOf(
-                    navArgument(NavScreen.PosterDetails.argument0) { type = NavType.LongType }
-                )
-            ) { backStackEntry ->
-                val posterId =
-                    backStackEntry.arguments?.getLong(NavScreen.PosterDetails.argument0) ?: return@composable
 
-//                PosterDetails(posterId = posterId, viewModel = hiltViewModel()) {
-//                    navController.navigateUp()
-//                }
-            }
         }
     }
 }
@@ -63,10 +51,5 @@ sealed class NavScreen(val route: String) {
 
     object Home : NavScreen("Home")
 
-    object PosterDetails : NavScreen("PosterDetails") {
 
-        const val routeWithArgument: String = "PosterDetails/{posterId}"
-
-        const val argument0: String = "posterId"
-    }
 }

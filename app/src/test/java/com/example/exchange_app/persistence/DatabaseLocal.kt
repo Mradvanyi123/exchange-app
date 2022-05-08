@@ -10,7 +10,7 @@ import org.robolectric.annotation.Config
 
 
 @RunWith(RobolectricTestRunner::class)
-@Config(sdk = [32])
+@Config(sdk = [31])
 abstract class DatabaseLocal {
     lateinit var db: AppDatabase
         private set

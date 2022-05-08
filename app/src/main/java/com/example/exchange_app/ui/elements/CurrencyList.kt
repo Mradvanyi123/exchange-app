@@ -1,5 +1,4 @@
-package hu.bme.aut.dadjokes.ui.main.composables
-
+package com.example.exchange_app.ui.elements
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
@@ -23,7 +22,7 @@ fun CurrencyList(
 ////                    modifier = Modifier
 ////                        .padding(start = 16.dp, end = 16.dp, top = 8.dp, bottom = 8.dp),
 ////                    currency = currency,
-////                    selectJoke = { selectCurrency(currency.id) }
+////
 ////                )
 //            ) {
 //            requestMore()

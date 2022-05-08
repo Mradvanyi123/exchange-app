@@ -1,4 +1,4 @@
-package hu.bme.aut.dadjokes.ui.main.composables
+package com.example.exchange_app.ui.elements
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -23,12 +23,12 @@ import java.util.*
 fun CurrencyRow(
     modifier: Modifier = Modifier,
     currency: Currency,
-    selectJoke: () -> Unit = { },
+    selectCurrency: () -> Unit = { },
 ) {
     Surface(
         modifier = modifier
             .padding(all = 4.dp)
-            .clickable(onClick = selectJoke),
+            .clickable(onClick = selectCurrency),
         elevation = 16.dp,
         shape = RoundedCornerShape(size = 24.dp)
     ) {
@@ -48,7 +48,7 @@ fun CurrencyRow(
         ) {
             CurrencyText(base = "asd", target = "asd", rate = "asd")
 
-//            CurrencyText(text = getDateTimeInstance().format(joke.computedDate))
+
 
         }
     }

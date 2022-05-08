@@ -12,7 +12,7 @@ import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 
 @RunWith(RobolectricTestRunner::class)
-@Config(sdk = [32])
+@Config(sdk = [31])
 class CurrencyDaoTest : DatabaseLocal() {
     private lateinit var currencyDao: CurrencyDao
 

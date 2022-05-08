@@ -16,14 +16,17 @@ import javax.inject.Singleton
 object PersistenceModule {
     @Provides
     @Singleton
-    fun provideAppDatabase(application: Application) = Room
-        .databaseBuilder(
-            application,
-            AppDatabase::class.java,
-            application.getString(R.string.database)
-        )
-        .fallbackToDestructiveMigration()
-        .build()
+    fun provideAppDatabase(application: Application):AppDatabase {
+        return Room
+            .databaseBuilder(
+                application,
+                AppDatabase::class.java,
+                application.getString(R.string.database)
+            )
+            .fallbackToDestructiveMigration()
+            .build()
+    }
+
 
     @Provides
     @Singleton

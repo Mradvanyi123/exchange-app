@@ -17,5 +17,7 @@ object RepositoryModule {
     fun provideMainRepository(
         currencyService: CurrencyService,
         currencyDao: CurrencyDao
-    ) = MainRepository(currencyService, currencyDao)
+    ) : MainRepository{
+        return MainRepository (currencyService, currencyDao)
+    }
 }

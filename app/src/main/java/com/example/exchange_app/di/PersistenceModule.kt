@@ -31,4 +31,6 @@ object PersistenceModule {
     @Provides
     @Singleton
     fun provideCurrencyDao(appDatabase: AppDatabase) = appDatabase.currencyDao()
+
+
 }

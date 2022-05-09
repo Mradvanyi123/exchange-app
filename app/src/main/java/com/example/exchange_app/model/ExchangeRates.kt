@@ -1,5 +1,9 @@
 package com.example.exchange_app.model
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+import javax.annotation.concurrent.Immutable
+
 data class ExchangeRates(
     val EUR: Float,
     val USD: Float,
@@ -33,7 +37,4 @@ data class ExchangeRates(
     val SGD: Float,
     val THB: Float,
     val ZAR: Float,
-
-
-
-)
+    )

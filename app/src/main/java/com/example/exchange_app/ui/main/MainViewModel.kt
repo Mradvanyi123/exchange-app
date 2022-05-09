@@ -13,6 +13,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import javax.inject.Inject
+import androidx.compose.runtime.getValue
 
 @HiltViewModel
 class MainViewModel @Inject constructor(
@@ -25,6 +26,7 @@ class MainViewModel @Inject constructor(
             onCompletion = { _isLoading.value = false },
             onError = {  }
         )
+
 
     private val _isLoading: MutableState<Boolean> = mutableStateOf(false)
     val isLoading: State<Boolean> get() = _isLoading

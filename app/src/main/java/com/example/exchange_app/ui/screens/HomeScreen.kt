@@ -18,7 +18,10 @@ import androidx.constraintlayout.compose.ConstraintLayout
 import com.example.exchange_app.RateCard
 import com.example.exchange_app.model.Currency
 import com.example.exchange_app.model.exchangeRatesList
+import com.example.exchange_app.ui.elements.CurrencyCard
+import com.example.exchange_app.ui.elements.TopBar
 import com.example.exchange_app.ui.main.MainViewModel
+import androidx.compose.runtime.*
 
 
 @Composable
@@ -28,6 +31,7 @@ fun HomeScreen(
 //    modifier: Modifier = Modifier,
 ) {
     val currencies: List<Currency> by viewModel.currencyList.collectAsState(initial = listOf())
+//    val currencies: Currency by viewModel.currencyList
     val isLoading: Boolean by viewModel.isLoading
 
     val listState = rememberLazyListState()
@@ -45,6 +49,7 @@ fun HomeScreen(
         elevation = 8.dp,
         shape = RoundedCornerShape(8.dp)
     ) {
+        TopBar()
         LazyColumn(
             modifier = Modifier.fillMaxWidth(),
             contentPadding = PaddingValues(16.dp)
@@ -65,7 +70,7 @@ fun HomeScreen(
             }
 
             items(currencies) { currency ->
-                RateCard(currency.base, currency.date, currency.exchangeRates)
+//                CurrencyCard(currency.base, currency.date, currency.rates)
 //                currency.base.print()
             }
             items(exchangeRatesList) { rate ->

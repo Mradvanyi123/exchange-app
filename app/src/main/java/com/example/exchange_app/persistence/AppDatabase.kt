@@ -4,7 +4,8 @@ import androidx.room.Database
 import androidx.room.RoomDatabase
 import com.example.exchange_app.model.Currency
 
-@Database(entities = [Currency::class], version =2, exportSchema = true)
+@Database(entities = [Currency::class], version =3, exportSchema = true)
 abstract class AppDatabase: RoomDatabase() {
-    abstract fun currencyDao(): CurrencyDao
+    abstract fun currencyDao(): CurrencyDao;
+
 }

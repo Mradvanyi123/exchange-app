@@ -16,7 +16,7 @@ object RepositoryModule {
     @ViewModelScoped
     fun provideMainRepository(
         currencyService: CurrencyService,
-        currencyDao: CurrencyDao
+        currencyDao: CurrencyDao,
     ) : MainRepository{
         return MainRepository (currencyService, currencyDao)
     }
